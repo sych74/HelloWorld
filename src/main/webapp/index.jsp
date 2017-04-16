@@ -18,8 +18,7 @@
 <div class="curve2"></div> 
 <div class="curve3"></div> 
 </div--> <h1 style="color:blue">HELLO WORLD</h1>
-<h2>From: <%=java.net.InetAddress.getLocalHost().getHostName()%></h2>
-  <h2>JVM Uptime: <%=java.lang.management.ManagementFactory.getRuntimeMXBean().getUptime()%></h2>
+<h2>From: <%=java.net.InetAddress.getLocalHost().getHostName()%> - JVM Uptime: <%=java.lang.management.ManagementFactory.getRuntimeMXBean().getUptime()%></h2>
 <!--h3 class="blue">Your Java application is now running in the Cloud!</h3--> 
 <!--a id="header-link" href="http://jelastic.com/" target="_blank" class="powered-by"></a-->
 <noscript> <h1 class="visible">HELLO WORLD</h1> 
